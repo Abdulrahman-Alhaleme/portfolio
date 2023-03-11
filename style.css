@@ -81,6 +81,7 @@ overflow: hidden;
 .abood .h-1{
     font-size: 4rem;
     color: rgb(15, 15, 15);
+    margin-left: 90px;
 }
 .h-1:hover{
     color: black;
@@ -127,6 +128,14 @@ section{
     padding: 60px 50px;
     
     
+}
+.diiv h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(233, 233, 233);
+    font-size: 5rem;
+
 }
 .container .box{
     position: relative;
@@ -191,71 +200,6 @@ color: #2e2e2e;
 
 
 
-/* .project{
-    background-color: #222;
-    display: flex;
-    justify-content: center;
-}
-.title{
-    display: flex;
-    justify-content: center;
-    color: #5800FF;
-    font-size: 2.2em;
-    font-weight: 500;
-    margin-bottom: 30px;
-}
-.project .title{
-    color: rgb(255, 255, 255);
-
-}
-.project .content{
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.project-cards{
-    background-color: #2e2e2e;
-    border: 1px solid white;
-    height: 20em;
-    width: 22em;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 20px;
-  
-}
-.project-cards :hover{
-    transition: 0.7s;
-    transform: scale(1.03);
-    
-}
-
-.project-image img{
-    width: 100%;
-}
-.project-info{
-    padding: 1em;
-}
-.project-c{
-    font-size: 1.5em;
-    color:#ffffff;
-
-}
-.project-strong{
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 800;
-
-}
-#span1{
-    color: black;
-}
-.more-details{
-    text-decoration: none;
-    color: #ff0000;
-    font-size: 1em;
-  font-weight: 600;
-} */
 .project{
     background-color: #222;
 }
@@ -275,7 +219,7 @@ color: #2e2e2e;
     margin-top: 140px;
 }
 .project-cards{
-    background-color: gray;
+    background-color: #2e2e2e;
     border: 1px solid white;
     min-height: 20em;
     width: 20em;
