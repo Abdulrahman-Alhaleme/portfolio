@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -5,18 +6,21 @@
     text-transform: capitalize;
     scroll-behavior: smooth;
 }
+
 body{
     background-color: #222;
 }
 .nav-bar{
     width: 100%;
     height: 100vh;
-    background-image: url(/images/mark-solarski-209233-unsplash.jpg) ;
+    background-image: url(./images/mark-solarski-209233-unsplash.jpg) ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
 nav{
+  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,7 +113,7 @@ overflow: hidden;
 section{
     width: 100%;
     height: 1000px;
-    background-color: rgba(126,110,111,255);
+    
 }
 .section-1{
     display: flex;
@@ -387,3 +391,19 @@ footer{
     font-size: 0.9rem;
     border-top: 0.5px solid white;
 }
+#scroll-top{
+    position: fixed;
+    top:-120%;
+    right:2rem;
+    padding:.5rem 1.5rem;
+    font-size: 4rem;
+    background:var(--red);
+    color:#fff;
+    border-radius: .5rem;
+    transition: 1s linear;
+    z-index: 1000;
+  }
+  
+  #scroll-top.active{
+    top:calc(100% - 12rem)
+  }
